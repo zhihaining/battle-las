@@ -6,18 +6,10 @@ package de.duobao.battlelas.data_objects;
  * the position, rotation, and shape of objects.
  */
 
-public class ObjectMap extends Map
+public abstract class ObjectMap extends Map
 {
-    private BattleObject[] battleObjects;
+    private final BattleObject[] battleObjects = new BattleObject[0];
 
     public ObjectMap(){
-    }
-
-    public void rotate(){
-
-    }
-
-    public void move(int x, int y){
-
     }
 }

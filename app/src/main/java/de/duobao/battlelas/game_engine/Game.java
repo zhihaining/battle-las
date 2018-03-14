@@ -1,22 +1,16 @@
 package de.duobao.battlelas.game_engine;
 
 import de.duobao.battlelas.computer_player.ArtificialIntelligence;
+import de.duobao.battlelas.data_objects.BattleMap;
 import de.duobao.battlelas.data_objects.HumanPlayer;
 import de.duobao.battlelas.data_objects.Map;
 
 public class Game
 {
-    private enum GameType{
-        Land,
-        Air,
-        Ship,
-        All
-    }
     private final Player[] player = new Player[2];
-    private final Map myMap = new Map();
-    private final Map otherMap = new Map();
+    private final Map myMap = new BattleMap();
+    private final Map otherMap = new BattleMap();
     private GameType gameType = GameType.Ship;
-
     private boolean myTurn;
 
     public Game()
@@ -39,6 +33,14 @@ public class Game
         * 9. User can pause a game if the other player is AI. If it is a human, the one,
         *   who has first left the game will loose one score.
         */
+    }
+
+    private enum GameType
+    {
+        Land,
+        Air,
+        Ship,
+        All
     }
 
 

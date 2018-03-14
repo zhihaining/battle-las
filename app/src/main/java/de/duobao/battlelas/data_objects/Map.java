@@ -1,23 +1,19 @@
 package de.duobao.battlelas.data_objects;
 
-import java.util.Arrays;
-
-public class Map
+public abstract class Map<T>
 {
-    protected int[] mapData;
-    protected int horizontalSize = 10;
-    protected int verticalSize = 10;
+    protected final int horizontalSize = 10;
+    protected final int verticalSize = 10;
 
-    protected Map(){
+    /**
+     * the tiles of the map expand from left bottom to top right
+     */
+    protected T tiles[][];
+
+    public T[][] getMap()
+    {
+        return tiles;
     }
 
-    public int[] getMap(){
-        return mapData;
-    }
-
-    protected void initializeMap(){
-        mapData = new int[horizontalSize * verticalSize];
-        Arrays.fill(mapData, 0);
-    }
-
+    protected abstract void initializeMap();
 }
