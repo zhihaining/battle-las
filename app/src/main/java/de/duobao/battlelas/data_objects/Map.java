@@ -4,20 +4,20 @@ import java.util.Arrays;
 
 public class Map
 {
-    protected int[] mapDatas;
-    protected int horizonalSize = 10;
+    protected int[] mapData;
+    protected int horizontalSize = 10;
     protected int verticalSize = 10;
 
     protected Map(){
     }
 
     public int[] getMap(){
-        return mapDatas;
+        return mapData;
     }
 
     protected void initializeMap(){
-        mapDatas = new int[horizonalSize * verticalSize];
-        Arrays.fill(mapDatas, 0);
+        mapData = new int[horizontalSize * verticalSize];
+        Arrays.fill(mapData, 0);
     }
 
 }

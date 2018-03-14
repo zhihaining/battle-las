@@ -10,7 +10,7 @@ public class BattleObject
 {
     private int[] shape;
     private int rotation;
-    private int horizonalPosition;
+    private int horizontalPosition;
     private int verticalPosition;
 
     public BattleObject(){
