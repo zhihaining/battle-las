@@ -7,17 +7,14 @@ import de.duobao.battlelas.gui.GameInterface;
 
 public class MainActivity extends AppCompatActivity
 {
-    private final GameInterface gameInterface;
-
-    public MainActivity()
-    {
-        gameInterface = new GameInterface(this);
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+
+
+        GameInterface gameInterface = new GameInterface(this);
+        setContentView(gameInterface);
     }
 }
