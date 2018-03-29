@@ -13,12 +13,11 @@ public abstract class Player
     Tile myMap[][] = new Tile[0][];
     private boolean myTurn;
 
-    private Game parent;
+    protected Game parent;
 
     public Player(Game parent)
     {
         this.parent = parent;
-        myMap = new Tile[parent.getSettings().mapHSize][parent.getSettings().mapVSize];
         opponentMap = new Tile[parent.getSettings().mapHSize][parent.getSettings().mapVSize];
         myBattleObjects = new BattleObject[parent.getSettings().battleObjectSize];
     }
