@@ -1,7 +1,5 @@
 package de.duobao.battlelas.data_objects;
 
-import android.graphics.Point;
-import android.graphics.drawable.Drawable;
 
 /**
  * Created by Deen zhi on 12.03.2018.
@@ -11,25 +9,29 @@ import android.graphics.drawable.Drawable;
 
 public class BattleObject
 {
-    private Drawable shape;
-    private float rotation;
+    private Tile shape[][];
     /**
      * the left-most lowest point of the shape
      */
-    private Point position;
+    private Position position;
 
     public BattleObject(){
+    }
+
+    boolean isHit()
+    {
+        return false;
     }
 
     public void rotate()
     {
     }
 
-    public void move(final Point offset)
+    public void move(final Position offset)
     {
     }
 
-    public Drawable getShape()
+    public Tile[][] getShape()
     {
         return shape;
     }

@@ -1,15 +1,11 @@
 package de.duobao.battlelas.game_engine;
 
 import de.duobao.battlelas.computer_player.ArtificialIntelligence;
-import de.duobao.battlelas.data_objects.BattleMap;
-import de.duobao.battlelas.data_objects.HumanPlayer;
-import de.duobao.battlelas.data_objects.Map;
+import de.duobao.battlelas.data_objects.Position;
 
 public class Game
 {
     private final Player[] player = new Player[2];
-    private final Map myMap = new BattleMap();
-    private final Map otherMap = new BattleMap();
     private GameType gameType = GameType.Ship;
     private boolean myTurn;
 
@@ -35,6 +31,13 @@ public class Game
         */
     }
 
+    public void setPlayerMapReady(final Player player);
+
+    public void shoot(final Player player, final Position position);
+
+    public void retreat(final Player);
+
+    public void createGame(final Player player1, final Player player2);
     private enum GameType
     {
         Land,

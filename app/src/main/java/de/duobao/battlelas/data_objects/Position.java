@@ -1,7 +1,6 @@
 package de.duobao.battlelas.data_objects;
 
-public enum Terrain
+public class Position
 {
-    LAND,
-    SEA
+    int x, y;
 }

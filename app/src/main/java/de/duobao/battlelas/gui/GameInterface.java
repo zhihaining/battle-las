@@ -1,13 +1,14 @@
 package de.duobao.battlelas.gui;
 
-import de.duobao.battlelas.game_engine.Game;
+import de.duobao.battlelas.data_objects.Damage;
+import de.duobao.battlelas.data_objects.Position;
 
-public class GameInterface
+public interface GameInterface
 {
-    private final Game game;
+    void askPlayerForMap();
 
-    public GameInterface(Game game)
-    {
-        this.game = game;
-    }
+    void saveMap();
+
+    void setDamage(final Position position, final Damage damage);
+
 }
