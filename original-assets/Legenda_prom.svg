@@ -1,8 +1,58 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg height="128" id="svg2" version="1.0" width="128" xmlns="http://www.w3.org/2000/svg">
-    <defs id="defs4" />
-    <path
-        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-        d="M 85,27.390625 L 85,36.609375 L 76,36.609375 L 85,39.765625 L 85,49.609375 L 66.6875,49.609375 L 62,62.609375 L 44,62.609375 L 35,36.609375 L 25,36.609375 L 22,62.609375 L 15,62.609375 L 11,54.609375 L 0,54.609375 L 0,100.60938 L 116,100.60938 L 128,76.609375 L 115,76.609375 L 110.375,64.109375 L 113,64.109375 L 115,58.109375 L 108.15625,58.109375 L 105,49.609375 L 94,49.609375 L 90.03125,39.828125 L 102,36.609375 L 88.71875,36.609375 L 85,27.390625 z M 68.6875,52.609375 L 102.09375,52.609375 L 102.09375,55.609375 L 68.6875,55.609375 L 68.6875,52.609375 z M 66.625,59.609375 L 104.625,59.609375 L 104.625,62.609375 L 66.625,62.609375 L 66.625,59.609375 z M 4,66.609375 L 107.0625,66.609375 L 107.0625,69.609375 L 4,69.609375 L 4,66.609375 z M 4,73.609375 L 109.375,73.609375 L 109.375,76.609375 L 4,76.609375 L 4,73.609375 z"
-        id="path2508" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="128"
+   height="128"
+   id="svg2"
+   sodipodi:docname="Legenda_prom.svg"
+   inkscape:export-filename="/home/dhebbeker/tmp/Legenda_prom.svg.709.png"
+   inkscape:export-xdpi="600.28668"
+   inkscape:export-ydpi="600.28668"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata4535">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1680"
+     inkscape:window-height="986"
+     id="namedview4533"
+     showgrid="false"
+     inkscape:zoom="4.6953125"
+     inkscape:cx="64.425957"
+     inkscape:cy="64"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4" />
+  <path
+     d="M 85,27.390625 L 85,36.609375 L 76,36.609375 L 85,39.765625 L 85,49.609375 L 66.6875,49.609375 L 62,62.609375 L 44,62.609375 L 35,36.609375 L 25,36.609375 L 22,62.609375 L 15,62.609375 L 11,54.609375 L 0,54.609375 L 0,100.60938 L 116,100.60938 L 128,76.609375 L 115,76.609375 L 110.375,64.109375 L 113,64.109375 L 115,58.109375 L 108.15625,58.109375 L 105,49.609375 L 94,49.609375 L 90.03125,39.828125 L 102,36.609375 L 88.71875,36.609375 L 85,27.390625 z M 68.6875,52.609375 L 102.09375,52.609375 L 102.09375,55.609375 L 68.6875,55.609375 L 68.6875,52.609375 z M 66.625,59.609375 L 104.625,59.609375 L 104.625,62.609375 L 66.625,62.609375 L 66.625,59.609375 z M 4,66.609375 L 107.0625,66.609375 L 107.0625,69.609375 L 4,69.609375 L 4,66.609375 z M 4,73.609375 L 109.375,73.609375 L 109.375,76.609375 L 4,76.609375 L 4,73.609375 z"
+     id="path2508"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
 </svg>

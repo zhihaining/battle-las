@@ -9,6 +9,7 @@ import android.graphics.drawable.ShapeDrawable;
 import android.graphics.drawable.shapes.OvalShape;
 import android.view.View;
 
+import de.duobao.battlelas.R;
 import de.duobao.battlelas.game_engine.Game;
 
 public class GameInterface extends View
@@ -17,6 +18,7 @@ public class GameInterface extends View
 
     /* @todo BEGIN: THIS SECTION IS FOR TESTS ONLY */
     private final Drawable myGameObject;
+    private final Drawable myFerryPicture;
     private final Paint myCoolPaint;
     /* @todo END  : THIS SECTION IS FOR TESTS ONLY */
 
@@ -35,11 +37,16 @@ public class GameInterface extends View
         /* create something that can be drawn */
         myGameObject = new ShapeDrawable(new OvalShape()); /* easy example */
         myGameObject.setBounds(10, 10, 110, 110);
+
+        /* create picture of ferry */
+        myFerryPicture = getResources().getDrawable(R.drawable.ic_ship_side);
+        myFerryPicture.setBounds(120,10,230,110);
     }
 
     @Override
     protected void onDraw(Canvas canvas)
     {
         myGameObject.draw(canvas);
+        myFerryPicture.draw(canvas);
     }
 }
