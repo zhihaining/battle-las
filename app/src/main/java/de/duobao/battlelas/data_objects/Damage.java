@@ -2,7 +2,7 @@ package de.duobao.battlelas.data_objects;
 
 public class Damage
 {
-    boolean isHit;
-    boolean isDead;
-    boolean hasSurrendered;
+    public boolean isHit = false;
+    public boolean isDead = false;
+    public boolean hasSurrendered = false;
 }

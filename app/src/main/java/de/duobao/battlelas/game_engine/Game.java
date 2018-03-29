@@ -2,17 +2,18 @@ package de.duobao.battlelas.game_engine;
 
 import de.duobao.battlelas.computer_player.ArtificialIntelligence;
 import de.duobao.battlelas.data_objects.Position;
+import de.duobao.battlelas.data_objects.Damage;
 
 public class Game
 {
-    private final Player[] player = new Player[2];
-    private GameType gameType = GameType.Ship;
-    private boolean myTurn;
+    private final Player[] players = new Player[2];
+    private Player currentTurnForPlayer;
+    private GameSettings settings;
 
     public Game()
     {
-        player[0] = new HumanPlayer();
-        player[1] = new ArtificialIntelligence();
+        players[0] = new HumanPlayer(this);
+        players[1] = new ArtificialIntelligence(this);
 
         /* ToDO
         * 1. create game, define map size, game type and game rules.
@@ -31,20 +32,32 @@ public class Game
         */
     }
 
-    public void setPlayerMapReady(final Player player);
-
-    public void shoot(final Player player, final Position position);
-
-    public void retreat(final Player);
-
-    public void createGame(final Player player1, final Player player2);
-    private enum GameType
+    public void setPlayerMapReady(final Player player)
     {
-        Land,
-        Air,
-        Ship,
-        All
+
     }
 
+    public void shoot(final Player player, final Position position)
+    {
 
+    }
+
+    public void retreat(final Player player)
+    {
+    }
+
+    public void createGame(final Player player1, final Player player2)
+    {
+
+    }
+
+    public GameSettings getSettings()
+    {
+        return settings;
+    }
+
+    public void setSettings(GameSettings settings)
+    {
+        this.settings = settings;
+    }
 }
