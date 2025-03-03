@@ -1,0 +1,6 @@
+R1: The User should be able to define the size of the battlefield from 10x10 to 50x50
+R2: The Game mode could be 1 player or 2 players
+R3: By 1 player mode there is a real user as Player 1 and an AI player as opposer
+R4: By 2 players mode there are two real person as players. In local mode they play both on the same device
+R5: The 2 Players should not be able to see the status of the opposer each other.
+R6
